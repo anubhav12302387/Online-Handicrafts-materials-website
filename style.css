@@ -265,7 +265,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(img/banner/b2.jpg);
+    background-image: url(Img/b2.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -308,7 +308,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background-image: url(img/banner/b17.jpg);
+    background-image: url(Img/9963.webp);
     background-position: center;
     background-size: cover;
     flex-basis: 45%;
@@ -317,7 +317,7 @@ body {
     margin: 0 8px;
   }
   #sm-banner .banner-box2 {
-    background-image: url(img/banner/b10.jpg);
+    background-image: url(img/b10.jpg);
   }
   #sm-banner h4 {
     color: #fff;
@@ -342,7 +342,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background-image: url(img/banner/b7.jpg);
+    background-image: url(img/b7.jpg);
     background-position: center;
     background-size: cover;
     background-position: center;
@@ -364,10 +364,10 @@ body {
     font-weight: 800;
   }
   #banner3 .banner-box2 {
-    background-image: url(img/banner/b4.jpg);
+    background-image: url(img/b4.jpg);
   }
   #banner3 .banner-box3 {
-    background-image: url(img/banner/b18.jpg);
+    background-image: url(Img/8765.webp);
   }
   /* ---------newsletter---------- */
   #newsletter {
@@ -375,7 +375,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url(./img/banner/b20.png);
+    background-image: url(./img/b20.png);
     background-position: 20% 30%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -473,7 +473,7 @@ body {
   }
   /* -----------------------------------------shop------------------------------ */
   .page-header {
-    background-image: url(./img/banner/b1.jpg);
+    background-image: url(./img/b1.jpg);
     height: 45vh;
     display: flex;
     align-items: center;
@@ -563,7 +563,7 @@ body {
   }
   /* -------------------------------------------------blog-----------------------==----------- */
   .blog-header {
-    background-image: url(./img/banner/b19.jpg);
+    background-image: url(./img/b19.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -611,7 +611,7 @@ body {
   }
   /* -------------------------about------------------------------ */
   .about-header {
-    background-image: url(img/about/banner.png);
+    background-image: url(img/banner.png);
   }
   #about-head {
     display: flex;
