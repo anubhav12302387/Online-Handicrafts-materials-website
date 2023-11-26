@@ -1,0 +1,258 @@
+@media(max-width:1024px) {
+
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        padding: 80px 0px 0px 10px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: 0.5s;
+
+    }
+    #navbar li{
+        margin-bottom: 35px;
+    }
+    #header{
+        padding: 20px 20px;
+
+    }
+   #mobile,#cross,#bar{
+        display:inline;
+        color: rgb(0, 0, 0); 
+        cursor: pointer;
+    }
+    #shop{
+        color: black;
+    }
+    #hero{
+        background-position: top 30% right 30%;
+    }
+    #feature {
+        justify-content: center;
+    }
+    #feature .fe-box {
+       margin: 20px 20px;
+    }
+    .pro-container {
+       
+        justify-content:center;
+       
+    }
+    #product1 .pro {
+      margin: 30px ; 
+    }
+    #banner {
+        height: 20vh;
+    }
+    #banner h4{
+        font-size: 30px;
+        padding-top: 5px;
+    }
+    #banner h2 {
+      font-size: 40px;
+      padding-top: 5px;
+
+    }
+    .banbtn {
+   
+        margin-top: 0;
+    }
+    #sm-banner {
+     display: block;
+    
+    }
+    #sm-banner .banner-box {
+        height: 38vh;
+    }
+    #banner3 h2 {
+      
+        font-size: 40px;
+        line-height: normal;
+       
+    }
+    #newsletter input {
+       width:auto
+    }
+    #prodetail {
+        
+        flex-direction: column;
+    }
+    #prodetail .single-pro-img {
+        width: 80%;
+        
+    }
+    .single-pro-detail {
+        width: 80%;
+        text-align: center;
+        margin-left: 40px;
+        
+    }
+    .padding{
+         padding:40px 21px;
+    }
+    .single-pro-detail span {
+        font-size: 20px;
+        line-height: 20px;
+
+    }
+    #blog{
+        padding: 0 0 0 0;
+    }
+    .blog-details{
+        width: 80%;
+    }
+    #blog .blog-box {
+        margin:80px ;
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        align-items: center;
+        position: relative;
+        padding-bottom: 100px;
+        align-items: flex-start;
+    }
+    #blog .blog-box {
+        
+        padding-bottom: 50px;
+      }
+      #newsletter input {
+      
+        padding: 0 14px;
+        
+        font-size: 15px;
+    }
+    #about-head {
+     flex-direction: column;
+     text-align: center;
+    }
+    #about-head img {
+        width: 90%;
+        height: auto;
+        padding-right: 0;
+        
+    }
+    .section-p1 {
+        padding: 40px 0px;
+    }
+    #cart{
+        overflow-x: scroll;
+    }
+    #sub-total {
+        width: 100%;
+    }
+    #sub-total tr td{
+        padding:12 20px;
+       width: 100%;
+        overflow: hidden;
+      }
+      .cupons{
+        margin-bottom: 30px;
+        width: 80%;
+      }
+}
+
+@media(max-width:775px){
+    #product1 .pro {
+        width: auto;
+    }
+    #banner3  {
+     display: block;
+    }
+    #newsletter h4 {
+        font-size: 25px;
+        color: #fff;
+    }
+    #newsletter input {
+        width: 35vh;
+    }
+    #newsletter {
+       
+        height: 41vh;
+    }
+
+}
+
+@media(max-width:600px){
+    #banner3  {
+        display: block;
+       }
+    h4 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 30px;
+        
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 45px;
+       
+    }
+    .hero-btn {
+        white-space: nowrap;
+        margin-top: 20px;
+        
+    }
+    #sm-banner h2 {
+        
+        font-size: 40px;
+        
+    }
+    #newsletter input {
+        width: 20vh;
+    }
+    #feature .fe-box {
+        width: 275px;
+        
+    }
+    #cross, #bar, #shop {
+     
+        margin: 10px;
+    
+    }
+    .hero-btn {
+       
+        font-size: 20px;
+        padding: 7px 18px;
+        margin-top: 2px;
+       
+    }
+    #banner h2 {
+        font-size: 30px;
+        
+    }
+    .logo {
+        height: 68px;
+    }
+   
+    #mobile{
+        display: flex;
+    }
+    #hero{
+        padding: 0px 22px;
+    }
+    .single-pro-detail select {
+        font-size: 20px;
+        padding: 7px;
+        margin: 5px;
+        
+       
+    }
+    .single-pro-detail input {
+        font-size: 20px;
+        padding: 7px;
+        margin: 5px;
+
+       
+    }
+    .single-pro-detail button{
+        margin: 5px;
+    }
+}
