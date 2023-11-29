@@ -17,8 +17,8 @@
         <div class="nav-menu" id="navMenu">
             <ul>
                 <li><a href="index.html" class="link active">Home</a></li>
-                <li><a href="#" class="link">Blog</a></li>
-                <li><a href="#" class="link">Services</a></li>
+                <li><a href="blog.html" class="link">Blog</a></li>
+                <li><a href="contact.html" class="link">Services</a></li>
                 <li><a href="about.html" class="link">About</a></li>
             </ul>
         </div>
@@ -42,15 +42,15 @@
                 <header>Login</header>
             </div>
             <div class="input-box">
-                <input type="text" class="input-field" placeholder="Username or Email" id="username">
+                <input type="text" class="input-field" placeholder="Username or Email">
                 <i class="bx bx-user"></i>
             </div>
             <div class="input-box">
-                <input type="password" class="input-field" placeholder="Password" id="password">
+                <input type="password" class="input-field" placeholder="Password">
                 <i class="bx bx-lock-alt"></i>
             </div>
             <div class="input-box">
-                <input type="submit" class="submit" value="Sign In" ahref="index.html" onclick="auth()">
+                <input type="submit" class="submit" value="Sign In">
             </div>
             <div class="two-col">
                 <div class="one">
@@ -66,7 +66,7 @@
         <!------------------- registration form -------------------------->
         <div class="register-container" id="register">
             <div class="top">
-                <span>Have an account? <a href="#">Login</a></span>
+                <span>Have an account? <a href="#" onclick="login()">Login</a></span>
                 <header>Sign Up</header>
             </div>
             <div class="two-forms">
@@ -88,7 +88,7 @@
                 <i class="bx bx-lock-alt"></i>
             </div>
             <div class="input-box">
-                <input type="submit" class="submit" value="Register" ahref="index.html">
+                <input type="submit" class="submit" value="Register">
             </div>
             <div class="two-col">
                 <div class="one">
@@ -103,19 +103,46 @@
     </div>
 </div>   
 
-<script>
-    function auth{
-        var email = document.getElementsByid("username").value;
-        var pass = document.getElementsByid('password').value;
-        if (email == 'anubhavjaiswal1803@gmail.com' && pass == '123456789'){
-            alert("Welcome!! Cara mein apka Swagat hai !!")
-            window.location.assign("index.html")
 
-        }
-        else{
-            alert("wrong entry invalid")
-        }
+<script>
+   
+   function myMenuFunction() {
+    var i = document.getElementById("navMenu");
+
+    if(i.className === "nav-menu") {
+        i.className += " responsive";
+    } else {
+        i.className = "nav-menu";
     }
+   }
+ 
+</script>
+
+<script>
+
+    var a = document.getElementById("loginBtn");
+    var b = document.getElementById("registerBtn");
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+
+    function login() {
+        x.style.left = "4px";
+        y.style.right = "-520px";
+        a.className += " white-btn";
+        b.className = "btn";
+        x.style.opacity = 1;
+        y.style.opacity = 0;
+    }
+
+    function register() {
+        x.style.left = "-510px";
+        y.style.right = "5px";
+        a.className = "btn";
+        b.className += " white-btn";
+        x.style.opacity = 0;
+        y.style.opacity = 1;
+    }
+
 </script>
 
 </body>
