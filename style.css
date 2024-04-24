@@ -286,12 +286,19 @@ body {
   }
   
   .banbtn {
-    background-color: #ffffff;
-    margin-top: 35px;
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #e76b3b;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
   }
   
   .banbtn:hover {
-    color: rgb(255, 255, 255);
+    background-color: #ef0909;
   }
   
   /* ----------------banner-box--------------- */
@@ -399,18 +406,22 @@ body {
     font-weight: 600;
   }
   #newsletter input {
-    height: 4.3rem;
-    width: 100%;
-    padding: 0 20px;
-    outline: none;
-    border-radius: 5px;
-    font-size: 25px;
-  }
+    height: 3.5rem;
+  width: 100%;
+  padding: 0px 20px 0px 5px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
   #newsletter button {
-    height: 4.3rem;
-    background-color: #088178;
-    padding: 15px 30px;
-    font-size: 25px;
+    height: auto;
+    background-color: #39a2ff;
+    padding: 12px 15px;
+    font-size: 21px;
     color: #fff;
     border: none;
     text-align: center;
@@ -432,7 +443,7 @@ body {
     margin-bottom: 40px;
   }
   footer h4 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
   footer .space {
@@ -440,12 +451,12 @@ body {
   }
   
   footer p {
-    font-size: 25px;
+    font-size: 18px;
     margin-top: 0;
     margin-bottom: 10px;
   }
   footer a {
-    font-size: 25px;
+    font-size: 18px;
     text-decoration: none;
     margin-bottom: 10px;
     color: #465b52;
@@ -657,13 +668,13 @@ body {
   }
   
   .details span {
-    font-size: 45px;
+    font-size: 20px;
   }
   .details h2 {
-    padding-top: 30px;
+    padding-top: 45px;
   }
   .details h3 {
-    font-size: 40px;
+    font-size: 20px;
     padding-top: 30px;
     padding-bottom: 20px;
   }
@@ -700,7 +711,7 @@ body {
   }
   #formdetails input,
   textarea {
-    font-size: 35px;
+    font-size: 20px;
     padding: 25px 35px;
     margin-bottom: 25px;
   }
@@ -708,7 +719,7 @@ body {
     margin-bottom: 30px;
   }
   #formdetails form span {
-    font-size: 45px;
+    font-size: 20px;
     color: #036c65;
   
     margin: 30px;
